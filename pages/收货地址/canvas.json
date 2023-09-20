@@ -1,0 +1,182 @@
+{
+  "unpublishedPage": {
+    "name": "收货地址",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 450,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 840,
+          "containerStyle": "none",
+          "snapRows": 129,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 30,
+          "minHeight": 850,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "m_list1",
+              "buttonColor": "#03b365",
+              "emptyText": "暂无收货地址",
+              "topRow": 7,
+              "bottomRow": 78,
+              "parentRowSpace": 10,
+              "type": "TARO_LIST_WIDGET",
+              "showLoading": true,
+              "priceKey": "discount",
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onItemClicked"
+                },
+                {
+                  "key": "onDeleteClicked"
+                }
+              ],
+              "titleColor": "#333",
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "list"
+                }
+              ],
+              "enableSwipe": true,
+              "contentType": "I_N_D",
+              "height": "50px",
+              "buttonText": "",
+              "rightColumn": 64,
+              "inset": false,
+              "priceColor": "#DD4B34",
+              "widgetId": "75izedz22w",
+              "descriptionKey": "description",
+              "descriptionColor": "#999",
+              "emptyPic": "",
+              "isVisible": true,
+              "list": "{{Address.data.data.list.map(function(c){\n\tc.title = c.name + ' ' + c.tel + (c.isDefault ? \"【默认】\": '');\n\tc.picUrl = 'https://img.icons8.com/stickers/2x/address.png';\n\tc.description = c.province + ' ' + c.city + ' ' + c.county + '\\\\n' + c.addressDetail;\n\treturn c;\n})}}",
+              "titleKey": "title",
+              "parentId": "0",
+              "urlKey": "picUrl",
+              "isLoading": false,
+              "onItemClicked": "{{navigateTo('地址表单',{id: m_list1.currentItem.id})}}",
+              "controlType": "BUTTON",
+              "width": "80px",
+              "onDeleteClicked": "{{AddressDelete.run(() => Address.run(), () => {})}}"
+            },
+            {
+              "widgetName": "m_text1",
+              "rightColumn": 20,
+              "textAlign": "LEFT",
+              "widgetId": "5tkipwhq8r",
+              "topRow": 2,
+              "bottomRow": 7,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "TARO_TEXT_WIDGET",
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 2,
+              "dynamicBindingPathList": [],
+              "fontSize": "HEADING2",
+              "text": "我的收货地址"
+            },
+            {
+              "widgetName": "m_button1",
+              "rightColumn": 64,
+              "onClick": "{{navigateTo('地址表单', {})}}",
+              "widgetId": "3dbgwuf3d7",
+              "topRow": 2,
+              "bottomRow": 7,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "showLoading": false,
+              "type": "TARO_BUTTON_WIDGET",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 40,
+              "dynamicBindingPathList": [],
+              "rounded": true,
+              "fontSize": "14px",
+              "text": "+ 添加收货地址"
+            },
+            {
+              "widgetName": "m_loading1",
+              "rightColumn": 24,
+              "detachFromLayout": true,
+              "loadingText": "正在删除...",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "showLoading"
+                }
+              ],
+              "widgetId": "hq6em6xpyc",
+              "topRow": 32,
+              "bottomRow": 40,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "showLoading": "{{AddressDelete.isLoading}}",
+              "type": "TARO_LOADING_WIDGET",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 8,
+              "dynamicBindingPathList": [
+                {
+                  "key": "showLoading"
+                }
+              ]
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "收货地址_Address",
+              "name": "Address",
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "global.store.loginInfo.token"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "validOnPageLoadActions": true,
+        "id": "收货地址",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false,
+    "icon": ""
+  },
+  "deleted": false,
+  "gitSyncId": "63047f8d8eecf64c3a699893_63047f8d8eecf64c3a6998b9"
+}

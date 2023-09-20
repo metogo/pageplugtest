@@ -1,0 +1,196 @@
+{
+  "unpublishedPage": {
+    "name": "关于我们",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 450,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 840,
+          "containerStyle": "none",
+          "snapRows": 129,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 60,
+          "minHeight": 850,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "m_text3Copy",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "fontSize"
+                }
+              ],
+              "topRow": 24,
+              "bottomRow": 28,
+              "parentRowSpace": 10,
+              "type": "TARO_TEXT_WIDGET",
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 21,
+              "dynamicBindingPathList": [],
+              "text": "欢迎试用！",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 41,
+              "textAlign": "CENTER",
+              "widgetId": "g4wzolgpvn",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#03b365",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "fontSize": "1.5rem"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "m_text2Copy1",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "fontSize"
+                }
+              ],
+              "topRow": 17,
+              "bottomRow": 21,
+              "parentRowSpace": 10,
+              "type": "TARO_TEXT_WIDGET",
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 2,
+              "dynamicBindingPathList": [],
+              "text": "https://github.com/cloudtogo/pageplug",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 62,
+              "backgroundColor": "",
+              "textAlign": "CENTER",
+              "widgetId": "nf1r2zwpzd",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "fontSize": "1.125rem"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "m_text2Copy",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "fontSize"
+                }
+              ],
+              "topRow": 10,
+              "bottomRow": 15,
+              "parentRowSpace": 10,
+              "type": "TARO_TEXT_WIDGET",
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 40,
+              "dynamicBindingPathList": [],
+              "text": "设计生成",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 61,
+              "backgroundColor": "",
+              "textAlign": "LEFT",
+              "widgetId": "xcu14q2ec3",
+              "isVisible": true,
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "fontSize": "1.125rem"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "m_text2",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "fontSize"
+                }
+              ],
+              "topRow": 10,
+              "bottomRow": 15,
+              "parentRowSpace": 10,
+              "type": "TARO_TEXT_WIDGET",
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 4,
+              "dynamicBindingPathList": [],
+              "text": "本项目使用",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 20,
+              "backgroundColor": "",
+              "textAlign": "RIGHT",
+              "widgetId": "xahoc1nsms",
+              "isVisible": true,
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "fontSize": "1.125rem"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "m_text3",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "fontSize"
+                }
+              ],
+              "topRow": 9,
+              "bottomRow": 15,
+              "parentRowSpace": 10,
+              "type": "TARO_TEXT_WIDGET",
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 20,
+              "dynamicBindingPathList": [],
+              "text": "PagePlug",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 40,
+              "textAlign": "CENTER",
+              "widgetId": "aowgr4cdus",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#3366FF",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "fontSize": "1.5rem"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "validOnPageLoadActions": true,
+        "id": "关于我们",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false,
+    "icon": ""
+  },
+  "deleted": false,
+  "gitSyncId": "63047f8d8eecf64c3a699893_63047f8d8eecf64c3a6998cb"
+}
